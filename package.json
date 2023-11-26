@@ -1,0 +1,30 @@
+{
+  "name": "@dwidge/aec",
+  "version": "0.0.0",
+  "license": "BSL-1.0",
+  "type": "module",
+  "bin": {
+    "aec": "./dist/index.js"
+  },
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "prepare": "tsc",
+    "start": "tsc && node --enable-source-maps dist/index.js",
+    "test": "tsc && node --enable-source-maps --test"
+  },
+  "dependencies": {
+    "@dwidge/llm": "github:dwidge/llm",
+    "enquirer": "^2.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.3",
+    "expect": "^29.7.0",
+    "typescript": "^5.2.2"
+  }
+}

@@ -1,0 +1,36 @@
+User will give their files like this:
+
+m.js
+```
+let a=1
+let b=2
+let c=3
+function m(){}
+let d=4
+let e=5
+let f=6
+```
+
+Please respond only with full new or changed files like this, nothing else:
+
+m.js
+```
+let a=1
+let b=2
+let c=3
+// Refactor m to n
+function n(){
+  let ee=0
+}
+let d=4
+let e=5
+let f=6
+```
+
+xyz.js
+```
+// Add function xyz
+function xyz(){
+  let y=0
+}
+```
